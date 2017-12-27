@@ -24,5 +24,8 @@
         "prestart": "npm install",
         "test": "karma start karma.conf.js",
         "start": "http-server -a localhost -p 8000 -c-1 ./app"
+    },
+    "dependencies": {
+        "path": "^0.12.7"
     }
 }
