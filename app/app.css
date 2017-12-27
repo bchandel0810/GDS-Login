@@ -1,0 +1,250 @@
+/*Call Audit gray: #929598;
+  orange:#e36c25;
+  #858586
+*/
+
+
+/*-----------------------------------------------------------------------------------------------*
+/*IE browser*/
+
+@viewport {
+    width: device-width;
+    height: device-height;
+}
+
+html {
+    height: 100vh;
+}
+
+
+/*-----------------------------------------------------------------------------------------------*/
+
+
+/* app css stylesheet */
+
+.container-custom {
+    padding: 0;
+    width: 100%;
+}
+
+.custom-row {
+    margin-right: 0;
+    margin-left: 0;
+}
+
+.custom-col {
+    padding-right: 0;
+    padding-left: 0;
+}
+
+body {
+    background-color: #fff;
+    font-size: 14px;
+    font-family: 'Maven Pro', sans-serif;
+    padding: 0;
+    margin: 0;
+}
+
+.ca-border-top {
+    border-top: 1px solid #858586;
+}
+
+.ca-header {
+    height: 60px;
+    background-color: #fff;
+    font-weight: normal;
+    color: #e36c25;
+}
+
+.ca-search,
+.ca-result,
+.ca-details {
+    height: 83.9vh;
+    overflow: hidden;
+}
+
+.ca-footer {
+    bottom: 0;
+    width: 100%;
+    height: 30px;
+    background-color: #858586;
+    font-weight: normal;
+}
+
+.ca-gray-background {
+    background-color: #dddddc;
+}
+
+.ca-space {
+    padding: 5px 5px 0 5px;
+}
+
+.ca-border {
+    border: 1px solid #dddddc;
+}
+
+
+/*-----------------------------------------------------------------------------------------------*/
+
+
+/*Responsive UI*/
+
+@media (min-width: 1224px) {
+    body {
+        font-size: 12px;
+        font-size-adjust: 13px;
+    }
+}
+
+
+/* Desktops and laptops ----------- */
+
+@media (min-width: 1660px) and (max-width: 1920px) {
+    .ca-search,
+    .ca-result,
+    .ca-details {
+        height: 89vh;
+    }
+}
+
+
+/*laptop*/
+
+@media (width: 1366px)and (height: 600px) {
+    .ca-search,
+    .ca-result,
+    .ca-details {
+        height: 82vh !important;
+    }
+}
+
+@media (width: 1366px) and (height: 760px) {
+    .ca-search,
+    .ca-result,
+    .ca-details {
+        height: 85.6vh !important;
+    }
+}
+
+
+/*Laptop with MDPI screen*/
+
+@media (width: 1280px) and (height: 800px) {
+    .ca-search,
+    .ca-result,
+    .ca-details {
+        height: 87.4vh !important;
+    }
+}
+
+
+/*Laptop with touch*/
+
+@media (width: 1280px) and (height: 950px) {
+    .ca-search,
+    .ca-result,
+    .ca-details {
+        height: 87.4vh !important;
+    }
+}
+
+@media screen and (min-width: 1024px) and (max-width: 1366px) and (-webkit-min-device-pixel-ratio: 1) and (height: 760px) {
+    .ca-search,
+    .ca-result,
+    .ca-details {
+        height: 85.9vh;
+    }
+}
+
+@media screen and (min-width: 1024px) and (max-width: 1366px) and (height: 798px) {
+    .ca-search,
+    .ca-result,
+    .ca-details {
+        height: 75vh;
+    }
+}
+
+@media screen and (min-width: 1440px) and (max-width: 1600px) and (height:900px) {
+    .ca-search,
+    .ca-result,
+    .ca-details {
+        height: 88.8vh !important;
+    }
+}
+
+@media screen and (width:1920px) and (height: 1080px) {
+    .ca-search,
+    .ca-result,
+    .ca-details {
+        height: 90.2vh !important;
+    }
+    .sweet-alert {
+        top: 20% !important;
+    }
+}
+
+@media (width: 1366px) and (height: 768px) {
+    .ca-search,
+    .ca-result,
+    .ca-details {
+        height: 86vh !important;
+    }
+}
+
+@media (width: 1360px) and (height: 768px) {
+    .ca-search,
+    .ca-result,
+    .ca-details {
+        height: 86vh !important;
+    }
+}
+
+
+/*Laptop with HiDPI screen*/
+
+@media (width: 1440px) and (height: 900px) {
+    .ca-search,
+    .ca-result,
+    .ca-details {
+        height: 86.8vh !important;
+    }
+}
+
+@media screen and (min-width: 2560px) {
+    .ca-search,
+    .ca-result,
+    .ca-details {
+        height: 96vh;
+    }
+}
+
+@media screen and (width: 1600px) and (height: 2560px) {
+    .ca-search,
+    .ca-result,
+    .ca-details {
+        height: 92vh !important;
+    }
+}
+
+@media (min-width: 1450px) and (max-width: 1919px) and (min-height: 700px) and (max-height: 1079px) {
+    .ca-search,
+    .ca-result,
+    .ca-details {
+        height: 89vh !important;
+    }
+}
+
+
+/*Customize Alert css*/
+
+.swal-wide {
+    width: 500px !important;
+}
+
+.sweet-alert h2 {
+    font-size: 15px;
+}
+
+.sweet-alert {
+    top: 30% !important;
+}

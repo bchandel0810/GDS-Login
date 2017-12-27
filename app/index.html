@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en" ng-app="gdsApp">
+
+<head>
+    <base href='/'>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+    <title>Convirza Connector</title>
+    <link rel="icon" href="convirza-logo.ico" type="image/x-icon">
+    <link href="https://fonts.googleapis.com/css?family=Maven+Pro" rel="stylesheet">
+    <link rel="stylesheet" href="bower_components/bootstrap/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="bower_components/font-awesome/css/font-awesome.min.css">
+    <link rel="stylesheet" href="bower_components/angular-bootstrap/ui-bootstrap-csp.css">
+    <link rel="stylesheet" href="bower_components/angular-loading-bar/src/loading-bar.css">
+    <link rel="stylesheet" href="app.css">
+    <link rel="stylesheet" href="style/caCallDetails.css">
+   
+    <!--References Files-->
+    <script src="bower_components/jquery/dist/jquery.min.js"></script>
+    <script src="bower_components/angular/angular.min.js"></script>
+    <script src="bower_components/bootstrap/dist/js/bootstrap.min.js"></script>
+    <script src="bower_components/angular-bootstrap/ui-bootstrap.min.js"></script>
+    <script src="bower_components/angular-bootstrap/ui-bootstrap-tpls.min.js"></script>
+    <script src="bower_components/angular-loading-bar/src/loading-bar.js"></script>
+    <script src="bower_components/lodash/dist/lodash.min.js"></script>
+    <script src="bower_components/angular-ui-router/release/angular-ui-router.min.js"></script>
+    
+    <script src="bower_components/angular-cookies/angular-cookies.min.js"></script>
+
+    <script src="app.js"></script>
+   
+    <script src="components/gdsLogin/gdsLogin.js"></script>
+    <script src="components/gdsLogin/gdsLoginController.js"></script>
+   
+    <script src="components/dataModels/commonData.js"></script>
+    <script src="components/dataModels/gdsDataService.js"></script>
+    <script src="components/dataModels/helperService.js"></script>
+
+</head>
+
+<body class="container-fluid container-custom">
+    
+   
+    <article class="row custom-row ca-border-top">
+        <ui-view></ui-view>
+    </article>
+
+   
+</body>
+
+</html>

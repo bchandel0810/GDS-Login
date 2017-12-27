@@ -1,0 +1,9 @@
+## Directory-based project format:
+.idea/
+
+node_modules
+npm-debug.log
+
+/src/release
+/release
+/app/bower_components
