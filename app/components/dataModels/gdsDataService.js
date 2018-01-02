@@ -16,10 +16,10 @@ function gds_Data($http,helper) {
    
    function getAuthCode(payload){
         //return $http.post('https://apicfa.convirza.com/oauth/token', payload).then(helper.success(), helper.error());
-        return $http.post('http://localhost:8008/oauth/authorize?client_id=542511410559-9kjcqqo12aprrc1thk3tkvo920sg6bi5.apps.googleusercontent.com&redirect_uri=https://www.getpostman.com/oauth2/callback', payload).then(helper.success(), helper.error());
+        return $http.post('https://stag-2-cfaapi-1.convirza.com/oauth/authorize?client_id=542511410559-9kjcqqo12aprrc1thk3tkvo920sg6bi5.apps.googleusercontent.com&redirect_uri=https://www.getpostman.com/oauth2/callback', payload).then(helper.success(), helper.error());
     };
    function getAccessToken(payload){
-    return $http.post('http://localhost:8008/decision', payload).then(helper.success(), helper.error());
+    return $http.post('https://stag-2-cfaapi-1.convirza.com/decision', payload).then(helper.success(), helper.error());
    }; 
     return service;
 }
