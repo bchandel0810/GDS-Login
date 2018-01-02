@@ -1,31 +1,31 @@
 {
-    "name": "callaudit",
-    "private": true,
-    "version": "0.0.0",
-    "description": "Call Audit project",
-    "repository": "",
-    "license": "MIT",
-    "devDependencies": {
-        "body-parser": "^1.17.2",
-        "bower": "^1.7.7",
-        "express": "^4.15.3",
-        "http-server": "^0.9.0",
-        "jasmine-core": "^2.8.0",
-        "karma": "^1.7.0",
-        "karma-chrome-launcher": "^2.2.0",
-        "karma-jasmine": "^1.1.0",
-        "mongoose": "^4.9.10",
-        "nvm-test": "^2.0.3"
-    },
-    "scripts": {
-        "postinstall": "bower install",
-        "update-deps": "npm update",
-        "postupdate-deps": "bower update",
-        "prestart": "npm install",
-        "test": "karma start karma.conf.js",
-        "start": "http-server -a localhost -p 8000 -c-1 ./app"
-    },
-    "dependencies": {
-        "path": "^0.12.7"
-    }
+  "name": "callaudit",
+  "private": true,
+  "version": "0.0.0",
+  "description": "Call Audit project",
+  "repository": "",
+  "license": "MIT",
+  "devDependencies": {
+    "body-parser": "^1.17.2",
+    "bower": "^1.7.7",
+    "express": "^4.15.3",
+    "http-server": "^0.9.0",
+    "jasmine-core": "^2.8.0",
+    "karma": "^1.7.0",
+    "karma-chrome-launcher": "^2.2.0",
+    "karma-jasmine": "^1.1.0",
+    "mongoose": "^4.9.10",
+    "nvm-test": "^2.0.3"
+  },
+  "scripts": {
+    "postinstall": "bower install",
+    "update-deps": "npm update",
+    "postupdate-deps": "bower update",
+    "prestart": "npm install",
+    "test": "karma start karma.conf.js",
+    "start": "http-server -a localhost -p 8000 -c-1 ./app"
+  },
+  "dependencies": {
+    "path": "^0.12.7"
+  }
 }

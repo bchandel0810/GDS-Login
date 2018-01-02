@@ -6,6 +6,7 @@ var app = express();
 app.set('port', 8001);
 
 app.use(express.static(path.join(__dirname, 'app')));
+//app.use(express.session());
 
 // Listen for requests
 var server = app.listen(app.get('port'), function() {
